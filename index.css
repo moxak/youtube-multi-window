@@ -1,0 +1,63 @@
+li {
+    list-style: none;
+    }
+
+.header {
+    color: rgb(44, 44, 44);
+    /* background-color: #353535; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    }
+
+/* .header-logo {
+    float: left;
+    font-size: 20px;
+    padding: 10px 10px;
+} */
+/*     
+.header-list li {
+    float: left;
+    padding: 5px 0px;
+} 
+
+.btn waves-effect waves-light {
+    color: rgb(44, 44, 44);
+}
+
+.waves-effect waves-teal btn-flat {
+    padding: 0px 20px 0px 0px
+} */
+
+/* .btn-floating btn-large waves-effect waves-light {
+    padding: 0px;
+} */
+
+
+ /* label color */
+ .input-field label {
+    color: #f06292;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #f06292;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #f06292;
+    box-shadow: 0 1px 0 0 #f06292;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #f06292;
+    box-shadow: 0 1px 0 0 #f06292
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #f06292;
+    box-shadow: 0 1px 0 0 #f06292;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #f06292;
+  }

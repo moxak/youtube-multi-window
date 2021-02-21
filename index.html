@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Youtube-multi-window</title>
+    <meta name="og:title" content="Multi-window">
+    <meta name="og:type" content="website">
+    <meta name="og:description" content="Watch multi-movie on youtube.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    
+    <link href="index.css" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- floating window -->
+    <script src="https://riversun.github.io/jsframe/jsframe.js"></script>
+  </head>
+  <body>  
+    <div class="header grey darken-4">
+      <div class="grey-text text-lighten-4 right" style="padding:15px 30px 5px 5px;color: white;font-size: 30px;">Multi</div>
+      <div class="header-list">
+        <form class="input-form">
+          <div class="input-field">
+            <i class="material-icons prefix">insert_link</i>
+            <input id="input-youtube-url" type="text" class="validate">
+            <label for="icon_prefix">www.youtube.com/watch?v=xxxxxxxx</label>
+          </div>
+        </form>
+      </div>
+      <div style="padding:15px 5px 5px 30px;">
+        <a id="send-youtube-url" class="btn">
+        <i class="material-icons prefix" >send</i></a>
+      </div>
+      <div style="padding:15px 30px 5px 5px;">
+        <a id="clear-input-text" class="btn">
+        <i class="material-icons prefix">close</i></a>
+      </div>
+    </div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating yellow darken-1" id='Window-Menu'><i class="material-icons">apps</i></a></li>
+            <li><a class="btn-floating green" id='Change-layout-upper'><i class="material-icons">exposure_plus_1</i></a></li>
+            <li><a class="btn-floating blue" id='Chage-layout-downer'><i class="material-icons">exposure_neg_1</i></a></li>
+            <li><a class="btn-floating red" id='play_movie'><i class="material-icons">play_arrow</i></a></li>
+            <li><a class="btn-floating red" id='pause_movie'><i class="material-icons">pause</i></a></li>
+        </ul>
+    </div>
+    
+    <div class="main">
+        <div id="youtube-window">
+          <h1 class="pink-text text-lighten-2 center" style="width:400px;height:600px;">add movie url from youtube</h1>
+        </div>
+    </div>
+
+    <footer class="page-footer pink lighten-2">
+      <div class="footer-copyright">
+        <div class="container">
+        © 2021 moxak
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
+
+
+
